@@ -5,6 +5,14 @@ const cursos = [
         info: `
         HTML, CSS e JavaScript`,
         link: `https://go.hotmart.com/S74778753M?dp=1`
+    },
+
+    {
+        img: 'images/img-curso-php.jpg',
+        nome: 'Curso PHP',
+        info: `
+        Do básico ao avançado em PHP`,
+        link: `https://go.hotmart.com/U74787224L`
     }
 ]
 
