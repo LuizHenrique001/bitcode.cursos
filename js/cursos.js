@@ -29,9 +29,11 @@ iniciarBitCode = () => {
             <p class="info-curso">
                 ${val.info}
             </p>
-            <p class="btn-comprar-curso">
-                <a href="${val.link}">Comprar</a>
-            </p>
+            <div class="bloco-btn">
+                <p class="btn-comprar-curso">
+                    <a href="${val.link}">Ver curso</a>
+                </p>
+            </div>
         </div>
         `
 
