@@ -134,13 +134,12 @@ footer img {
 
 .link-contato-wpp {
     font-family: 'Montserrat', sans-serif;
-    color: #42434d;
     text-align: center;
     padding: 10px;
 }
 
 .link-contato-wpp a {
-    color: rgb(0, 224, 0);
+    color: rgb(0, 145, 255);
     transition: .3s;
     text-decoration: none;
 }
