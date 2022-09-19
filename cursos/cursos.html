@@ -6,26 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BitCode - cursos</title>
 
+    <!-- Icone Menu -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
     <!-- CSS do Site -->
     <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/media-query.css">
 
     <!-- CSS da aba Cursos -->
     <link rel="stylesheet" href="../CSS/estilo-cursos.css">
 
     <!-- JS -->
     <script src="../js/cursos.js" defer></script>
+    <script src="../js/query.js" defer></script>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <nav class="navbar-logo">
             <img src="../images/bitcode-logo.png" href="index.html" alt="Logo Site">
         </nav>
+        <i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
         <nav class="navbar-principal">
-            <p class="btn-nav">
-                <a href="../index.html">Home</a>
-                <a href="cursos.html">Cursos</a>
-                <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
-            </p>
+            <div class="menu-nav">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../cursos/cursos.html">Cursos</a></li>
+                    <li><a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
     <div class="categoria-curso">

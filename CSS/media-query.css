@@ -1,0 +1,42 @@
+i#burguer {
+    display: block;
+    padding: 10px;
+    background-color: rgb(76, 0, 255);
+    color: white;
+    text-align: center; 
+}
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+
+    .menu-nav {
+        display: flex;
+    }
+
+    .menu-nav ul {
+        display: flex;
+        height: 100%;
+        width: 100%;
+        list-style-type: none;
+        background-color: none;
+        text-align: right;
+        background-color: black;
+        padding-top: 0;
+    }
+
+    .menu-nav li {
+        display: flex;
+        margin: 1px;
+    }
+
+    header {
+        height: 80px;
+        display: flex;
+    }
+
+    .navbar-principal {
+        padding-right: 20px;
+    }
+}
