@@ -115,13 +115,15 @@ header {
 /* Container Cursos */
 
 main {
-    display: flex;
+    text-align: center;
+    width: 100%;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .container-cursos {
+    display: inline-table;
     width: 200px;
     height: 320px;
     background-color: white;
