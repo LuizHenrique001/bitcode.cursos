@@ -1,6 +1,6 @@
 const cursos = [
     {   
-        img: 'images/img-curso-devweb.webp',
+        img: '../images/img-curso-devweb.webp',
         nome: 'Desenvolvimento Web',
         info: `
         Curso HTML, CSS e JavaScript.`,
@@ -8,7 +8,7 @@ const cursos = [
     },
 
     {
-        img: 'images/img-curso-php.jpg',
+        img: '../images/img-curso-php.jpg',
         nome: 'Curso PHP',
         info: `
         Do básico ao avançado em PHP.`,
@@ -16,21 +16,21 @@ const cursos = [
     },
 
     {
-        img: 'images/img-bancodedados.png',
+        img: '../images/img-bancodedados.png',
         nome: 'Curso Banco de Dados',
         info: `Aprenda Banco de Dados curso completo.`,
         link: `https://go.hotmart.com/C74818226Y`
     },
 
     {
-        img: 'images/img-java.png',
+        img: '../images/img-java.png',
         nome: 'Curso JAVA',
         info: `Curso completo de JAVA Vitalício.`,
         link: `https://go.hotmart.com/M74819032Q?dp=1`
     },
 
     {
-        img: 'images/img-python.png',
+        img: '../images/img-python.png',
         nome: 'Curso de Python',
         info: `Programe em Python do Básico ao Avançado.`,
         link: `https://go.hotmart.com/U74819699C`

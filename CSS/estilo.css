@@ -31,30 +31,102 @@ header {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
 }
 
-.navbar img {
-    max-width: 200px;
-    margin-top: 14px;
+.navbar-logo {
+    margin-right: auto;
 }
 
+.navbar-logo img {
+    max-width: 150px;
+    margin: 14px 0px 0px 14px;
+}
+
+
+.navbar-principal {
+    padding-right: 20px;
+}
+
+.btn-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.btn-nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: .4s ease-in-out;
+}
+
+.btn-nav a:hover {
+    background-color: #5b00f9;
+    border-radius: 4px 7px;
+}
+
+.inicio-banner-site {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/pexels-sora-shimazaki-5926378.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.inicio-banner-site h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 80px 0px 20px 0px;
+    background-color: rgba(0, 0, 0, 0.605);
+    text-align: center;
+}
+
+.btn-curso {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.605);
+    height: 100%;
+    padding: 30px 0px 200px 0px;
+}
+
+.btn-curso a {
+    color: white;
+    background-color: #5b00f9;
+    border-radius: 4px;
+    padding: 18px 35px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.btn-curso a:hover {
+    background-color: #4500bb;
+}
+
+.descricao-site {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    background-color: rgba(0, 0, 0, 0.605);
+    padding-bottom: 30px;
+}
 
 /* Container Cursos */
 
 main {
-    width: 100%;
-    height: 100%;
-    text-align: center;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
 .container-cursos {
-    display: inline-table;
-    width: 210px;
-    height: 310px;
+    width: 200px;
+    height: 320px;
     background-color: white;
     margin: 15px;
-    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.508);
+    border: 1px solid rgb(210, 210, 210);
 }
 
 .container-cursos img {
@@ -65,22 +137,20 @@ main {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: black;
-    padding: 2px;
-    text-align: left;
+    padding: 2px 2px 2px 5px;
 }
 
 .info-curso {
     font-family: 'Lato', sans-serif;
     color: black;
-    padding: 2px;
-    text-align: left;
+    padding: 2px 2px 2px 5px;
 }
 
 .btn-comprar-curso {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 18px 0px 15px 0px;
+    padding: 18px;
 }
 
 .btn-comprar-curso a {
@@ -94,12 +164,6 @@ main {
 
 .btn-comprar-curso a:hover {
     background-color: #161020;
-}
-
-.bloco-btn {
-    width: 100%;
-    max-height: 80px;
-    margin: 10px 0px;
 }
 
 /* Footer do Site */
@@ -133,34 +197,25 @@ footer img {
 }
 
 .link-contato-wpp {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    padding: 10px;
-}
-
-.link-contato-wpp a {
-    color: rgb(0, 145, 255);
-    transition: .3s;
-    text-decoration: none;
-}
-
-.link-contato-wpp a:hover {
-    text-decoration: underline;
+    padding: 10px 0px;
 }
 
 .link-contato-insta {
-    font-family: 'Montserrat', sans-serif;
-    color: #42434d;
-    text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
-.link-contato-insta a {
-    text-decoration: none;
-    color: rgb(144, 0, 255);
-    transition: .3s;
+
+.meios-de-contato-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.link-contato-insta a:hover {
-    text-decoration: underline;
+.link-contato-wpp img {
+    width: 40px;
+}
+
+.link-contato-insta img {
+    width: 34px;
 }
