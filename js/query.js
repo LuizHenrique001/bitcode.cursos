@@ -1,4 +1,4 @@
-let navbar = document.querySelector('div.menu-nav')
+/*let navbar = document.querySelector('div.menu-nav')
 let ul = document.querySelector('ul')
 let li = document.querySelector('li')
 clickMenu = () => {
@@ -22,4 +22,4 @@ mudouTamanho = () => {
 }
 
 mudouTamanho()
-clickMenu()
+clickMenu()*/

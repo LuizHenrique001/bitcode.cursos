@@ -11,25 +11,23 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/estilo.css">
-    <link rel="stylesheet" href="CSS/media-query.css">
 
     <!-- JS -->
     <script src="js/cursos.js" defer></script>
-    <script src="js/query.js" defer></script>
+
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
         <nav class="navbar-logo">
-            <img src="images/bitcode-logo.png" href="index.html" alt="Logo Site">
+            <a class="link-logo" href="index.html">
+                <img src="images/bitcode-logo.jpg" alt="Logo Site">
+            </a>
         </nav>
         <nav class="navbar-principal">
-            <i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
-            <div class="menu-nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="./cursos/cursos.html">Cursos</a></li>
-                    <li><a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a></li>
-                </ul>
+            <div class="btn-nav">
+                <a href="index.html">Home</a>
+                <a href="./cursos/cursos.html">Cursos</a>
+                <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
             </div>
         </nav>
     </header>
@@ -46,7 +44,7 @@
         </p>
     </div>
     <footer>
-        <img src="images/bitcode-logo.png" alt="Imagem">
+        <img src="images/bitcode-logo.jpg" alt="Imagem">
         <p class="titulo-contato">
             Meios de contato
         </p>
