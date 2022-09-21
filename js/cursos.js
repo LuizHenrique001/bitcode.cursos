@@ -34,6 +34,13 @@ const cursos = [
         nome: 'Curso de Python',
         info: `Programe em Python do Básico ao Avançado.`,
         link: `https://go.hotmart.com/U74819699C`
+    },
+
+    {
+        img: '../images/dropshipping-img.webp',
+        nome: 'Curso de Dropshipping',
+        info: `Aprenda tudo sobre Dropshipping.`,
+        link: `https://go.hotmart.com/P75079780U`
     }
 ]
 
