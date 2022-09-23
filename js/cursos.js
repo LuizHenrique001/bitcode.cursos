@@ -41,6 +41,13 @@ const cursos = [
         nome: 'Curso de Dropshipping',
         info: `Aprenda tudo sobre Dropshipping.`,
         link: `https://go.hotmart.com/P75079780U`
+    },
+
+    {
+        img: '../images/mkt-programadores-img.png',
+        nome: 'Marketing Digital',
+        info: 'Marketing para programadores',
+        link:  `https://go.hotmart.com/N75132320R`
     }
 ]
 
