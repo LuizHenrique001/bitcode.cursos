@@ -172,12 +172,21 @@ main {
 /* Container Mkt comeco */
 
 .container-mkt {
-    display: table;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 100%;
     background-color: #efe7ff;
     /*background-image: linear-gradient(to right,#1e1f29,#171820);*/
+}
+
+@media screen and (max-width: 768px) {
+    .container-mkt {
+        display: block;
+        text-align: center;
+    }
 }
 
 .container-mkt img {
@@ -185,11 +194,11 @@ main {
 }
 
 .bloco-div {
-    margin: auto;
+    display: inline-table;
     width: 160px;
     height: 100%;
     border-radius: 10px;
-    padding: 20px 0px;
+    padding: 20px 15px;
 }
 
 .bloco-div p {
@@ -201,6 +210,44 @@ main {
 
 hr {
     border-color: #4500bb;
+}
+
+.container-anuncio-curso {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/img-anuncio-1.png');
+    background-size: cover;
+}
+
+.container-anuncio-curso .bloco-anuncio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 50px;
+    padding: 100px 0px 0px 0px;
+}
+
+.btn-anuncio {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 70px 0px 100px 0px;
+}
+
+.btn-anuncio a {
+    color: white;
+    background-color: #5b00f9;
+    border-radius: 4px;
+    padding: 18px 35px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.btn-anuncio a:hover {
+    background-color: #4500bb;
 }
 
 /* Footer do Site */
@@ -254,6 +301,10 @@ footer img {
 
 .link-contato-insta img {
     width: 34px;
+}
+
+.link-contato-gmail img {
+    width: 40px;
 }
 
 .btn-footer-nav {
