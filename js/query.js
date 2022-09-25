@@ -1,25 +1,13 @@
-/*let navbar = document.querySelector('div.menu-nav')
-let ul = document.querySelector('ul')
-let li = document.querySelector('li')
+let navbar = document.querySelector('nav.btn-nav')
 clickMenu = () => {
-    if(navbar.style.display == 'block') {
-        navbar.style.display = 'none'
-        ul.style.display = 'none'
-        li.style.display = 'none'
-    }else {
+    if(navbar.style.display == 'none') {
         navbar.style.display = 'block'
-        ul.style.display = 'block'
-        li.style.display = 'block'
+    }else {
+        navbar.style.display = 'none'
     }
 }
 
-mudouTamanho = () => {
-    if(window.innerWidth >= 768) {
-        navbar.style.display = 'flex'
-    }else {
-        navbar.style.display = 'none'
-    }
-}
+
 
 mudouTamanho()
-clickMenu()*/
+clickMenu()

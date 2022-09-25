@@ -1,43 +1,37 @@
-/*i#burguer {
+i#burguer {
     display: block;
-    padding: 10px;
-    background-color: rgb(76, 0, 255);
+    padding: 20px;
     color: white;
-    text-align: center; 
+    text-align: right;
+    font-size: 35px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
+
     i#burguer {
         display: none;
     }
 
-    .menu-nav {
-        display: flex;
-    }
-
-    .menu-nav ul {
-        display: flex;
-        height: 100%;
-        width: 100%;
-        list-style-type: none;
-        background-color: none;
-        text-align: right;
-        background-color: black;
-        padding-top: 0;
-    }
-
-    .menu-nav li {
-        display: flex;
-        margin: 1px;
-    }
-
     header {
-        height: 80px;
         display: flex;
+        height: 80px;
     }
 
-    .navbar-principal {
-        padding-right: 20px;
+    .btn-nav {
+        display: block;
+    }
+
+    .btn-nav li {
+        display: inline-block;
+    }
+
+    .btn-nav ul {
+        margin-right: 20px;
+        text-align: right; 
+    }
+
+    .btn-nav a {
+        border-radius: 4px 7px;
     }
 }
-*/

@@ -14,26 +14,38 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
 
     <!-- JS -->
     <script src="js/cursos.js" defer></script>
+    <script src="js/query.js" defer></script>
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <nav class="navbar-logo">
             <a class="link-logo" href="index.html">
                 <img src="images/bitcode-logo.jpg" alt="Logo Site">
             </a>
         </nav>
-        <nav class="navbar-principal">
-            <div class="btn-nav">
-                <a href="index.html">Home</a>
-                <a href="./cursos/cursos.html">Cursos</a>
-                <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
-            </div>
+        <i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
+        <nav class="btn-nav">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="./cursos/cursos.html">Cursos</a>
+                </li>
+                <li>
+                    <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
+                </li>
+            </ul>
         </nav>
+        
     </header>
+
+
     <div class="inicio-banner-site">
         <h1>
             Vire um programador profissional, <br> comece Hoje!
