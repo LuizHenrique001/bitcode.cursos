@@ -46,8 +46,15 @@ const cursos = [
     {
         img: '../images/mkt-programadores-img.png',
         nome: 'Marketing Digital',
-        info: 'Marketing para programadores',
+        info: 'Marketing para programadores.',
         link:  `https://go.hotmart.com/N75132320R`
+    },
+
+    {
+        img: '../images/img-logica-programacao.png',
+        nome: 'Lógica De Programação',
+        info: `Aprenda Lógica de Programação.`,
+        link: `https://p.eduzz.com/1578509?a=90931666`
     }
 ]
 
