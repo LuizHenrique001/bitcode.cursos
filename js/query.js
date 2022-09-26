@@ -1,4 +1,5 @@
 let navbar = document.querySelector('nav.btn-nav')
+
 clickMenu = () => {
     if(navbar.style.display == 'none') {
         navbar.style.display = 'block'
@@ -6,8 +7,6 @@ clickMenu = () => {
         navbar.style.display = 'none'
     }
 }
-
-
 
 mudouTamanho()
 clickMenu()

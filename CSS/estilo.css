@@ -154,6 +154,11 @@ main {
     width: 100%;
 }
 
+.container-cursos .img-avaliacao {
+    width: 80px;
+    display: flex;
+}
+
 .nome-curso {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
