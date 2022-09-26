@@ -50,11 +50,26 @@ header {
     display: block;
     color: white;
     padding: 10px;
-    transition: .4s ease-in-out;
+    transition: .4s;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-align: center;
+    animation: mover .7s;
+    height: 40px;
+}
+
+
+@keyframes mover {
+    from {
+        height: 0px;
+        opacity: 0;
+    }
+
+    to {
+        height: 40px;
+        opacity: 1;
+    }
 }
 
 .btn-nav a:hover {
