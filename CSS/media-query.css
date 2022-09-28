@@ -34,4 +34,8 @@ i#burguer {
     .btn-nav a {
         border-radius: 4px 7px;
     }
+
+    .navbar-logo img {
+        padding: 0px 0px 0px 14px;
+    }
 }

@@ -17,11 +17,9 @@
     <link rel="stylesheet" href="CSS/media-query.css">
 
     <!-- JS -->
-    <script src="js/cursos.js" defer></script>
-    <script src="js/query.js" defer></script>
 
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <nav class="navbar-logo">
             <a class="link-logo" href="index.html">
@@ -29,7 +27,7 @@
             </a>
         </nav>
         <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
-        <nav class="btn-nav">
+        <nav class="btn-nav" id="btnnav">
             <ul>
                 <li>
                     <a href="index.html">Home</a>
@@ -124,5 +122,21 @@
             &copy;  2022 BitCode - cursos
         </p>
     </footer>
+    <script>
+        function clickMenu() {
+            if(btnnav.style.display == 'none'){
+                btnnav.style.display = 'block'
+            }else {
+                btnnav.style.display = 'none'
+            }
+        }
+        function mudouTamanho() {
+            if(window.innerWidth >= 768){
+                btnnav.style.display = 'block'
+            }else {
+                btnnav.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>

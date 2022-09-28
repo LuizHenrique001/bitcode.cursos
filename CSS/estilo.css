@@ -36,8 +36,8 @@ header {
 }
 
 .navbar-logo img {
-    max-width: 110px;
-    margin: 14px 0px 0px 14px;
+    width: 120px;
+    padding: 10px 0px 0px 14px;
 }
 
 
