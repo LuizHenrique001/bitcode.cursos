@@ -27,7 +27,7 @@ i#burguer {
 
     .btn-nav {
         display: block;
-        margin-right: auto;
+        margin-left: auto;
     }
 
     .btn-nav li {
