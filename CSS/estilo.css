@@ -197,6 +197,8 @@ main {
 /* Container Mkt comeco */
 
 .container-mkt {
+    background-image: url('../images/banner-degrade.png');
+    background-size: cover;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -216,7 +218,8 @@ main {
 }
 
 .container-mkt img {
-    width: 160px;
+    /*width: 160px;*/
+    width: 100%;
 }
 
 .bloco-div {
