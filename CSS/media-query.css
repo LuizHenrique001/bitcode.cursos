@@ -2,9 +2,9 @@ i#burguer {
     display: block;
     padding: 20px;
     color: white;
-    text-align: right;
     font-size: 35px;
     cursor: pointer;
+    text-align: right;
 }
 
 @media screen and (min-width: 768px) {
@@ -16,6 +16,9 @@ i#burguer {
     header {
         display: flex;
         height: 80px;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
     }
 
     .container-mkt img {
@@ -24,6 +27,7 @@ i#burguer {
 
     .btn-nav {
         display: block;
+        margin-right: auto;
     }
 
     .btn-nav li {
@@ -32,11 +36,17 @@ i#burguer {
 
     .btn-nav ul {
         margin-right: 20px;
-        text-align: right; 
     }
 
     .btn-nav a {
         border-radius: 4px 7px;
+    }
+
+    .narbar-logo {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: left;
     }
 
     .navbar-logo img {

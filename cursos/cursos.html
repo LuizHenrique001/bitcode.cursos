@@ -29,8 +29,9 @@
             <a class="link-logo" href="index.html">
                 <img src="../images/bitcode-logo.jpg" alt="Logo Site">
             </a>
+            <div class="bloco-logo"><i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
+            </div>
         </nav>
-        <i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
         <nav class="btn-nav" id="btnnav">
             <ul>
                 <li>
@@ -87,10 +88,10 @@
     </footer>
     <script defer>
         function clickMenu() {
-            if(btnnav.style.display == 'none') {
-                    btnnav.style.display = 'block'
-                }else {
+            if(btnnav.style.display == 'block') {
                     btnnav.style.display = 'none'
+                }else {
+                    btnnav.style.display = 'block'
                 }
             }
 

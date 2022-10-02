@@ -25,8 +25,8 @@
             <a class="link-logo" href="index.html">
                 <img src="images/bitcode-logo.jpg" alt="Logo Site">
             </a>
+            <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         </nav>
-        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
         <nav class="btn-nav" id="btnnav">
             <ul>
                 <li>
@@ -50,7 +50,7 @@
 
         </h1>
         <p class="descricao-site">
-            Ganhe salários acima da média, ou trabalhe no exterior <br> e consiga passar dos 20k por mês.
+            Ganhe salários acima da média, ou trabalhe no exterior <br> e passe a ganhar mais de 20k por mês.
         </p>
         <p class="btn-curso">
             <a href="cursos/cursos.html">COMEÇAR</a>
@@ -80,7 +80,7 @@
     </div>
     <div class="container-anuncio-curso">
         <p class="bloco-anuncio">
-            COMECE A GANHAR DINHEIRO COM <br> A INTERNET CONFIRA <br> NOSSOS CURSOS.
+            MUDE DE VEZ <br> APRENDA COM OS MELHORES <br> LEVANDO VOCÊ AOS SEUS OBJETIVOS.
         </p>
         <p class="btn-anuncio">
             <a href="cursos/cursos.html">COMEÇAR</a>
@@ -125,10 +125,10 @@
     </footer>
     <script>
         function clickMenu() {
-            if(btnnav.style.display == 'none'){
-                btnnav.style.display = 'block'
-            }else {
+            if(btnnav.style.display == 'block'){
                 btnnav.style.display = 'none'
+            }else {
+                btnnav.style.display = 'block'
             }
         }
         function mudouTamanho() {
