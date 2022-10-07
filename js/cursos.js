@@ -63,6 +63,14 @@ const cursos = [
         nome: 'Lógica De Programação',
         info: `Aprenda Lógica de Programação.`,
         link: `https://p.eduzz.com/1578509?a=90931666`
+    },
+
+    {
+        img: '../images/img-afiliado-milionario.png',
+        imgAvaliacao: `../images/img-5-estrelas.png`,
+        nome: 'Afiliado Milionario',
+        info: `Comece a ganhar dinheiro como afiliado.`,
+        link: `https://p.eduzz.com/1125468?a=90931666`
     }
 ]
 
