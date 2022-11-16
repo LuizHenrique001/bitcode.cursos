@@ -85,9 +85,16 @@ main {
     width: 80px;
 }
 
-.btn_curso {
+.bloco_curso {
     width: 100%;
     margin-top: 18px;
+}
+
+.btn_curso {
+    background-color: #7855c3;
+    padding: 12px;
+    transition: .4s;
+    border-radius: 0px 0px 5px 5px;
 }
 
 
@@ -98,13 +105,12 @@ a {
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
-    background-color: #7855c3;
-    padding: 12px 73px;
+    padding: 12px 60px;
     transition: .4s;
     border-radius: 0px 0px 5px 5px;
 }
 
-a:hover {
+.btn_curso:hover {
     background-color: #523d80;
 }
 

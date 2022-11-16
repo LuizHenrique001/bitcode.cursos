@@ -90,8 +90,10 @@ iniciarBitCode = () => {
             <div class="container_avaliacao">
                 <img src="Images/img-5-estrelas.png" alt="Imagem Avaliação">
             </div>
-            <div class="btn_curso">
-                <a href="${value.link}">Ver curso</a>
+            <div class="bloco_curso">
+                <p class="btn_curso">
+                    <a href="${value.link}">Ver curso</a>
+                </p>
             </div>
         </div>`
     })
