@@ -88,7 +88,7 @@ iniciarBitCode = () => {
                 ${value.info}
             </p>
             <div class="container_avaliacao">
-                <img src="Images/img-5-estrelas.png" alt="Imagem Avaliação">
+                <img src="${value.imgAvaliacao}" alt="Imagem Avaliação">
             </div>
             <div class="bloco_curso">
                 <p class="btn_curso">
