@@ -81,17 +81,18 @@ main {
     justify-content: left;
     align-items: center;
     text-align: left;
-    margin-top: 5px;
+    margin-top: 9px;
     padding-left: 5px;
 }
 
 .container_avaliacao img {
     width: 80px;
+    padding-top: 0;
 }
 
 .bloco_curso {
     width: 100%;
-    margin-top: 18px;
+    margin-top: 7px;
 }
 
 .btn_curso {
