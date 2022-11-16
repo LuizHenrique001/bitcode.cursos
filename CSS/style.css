@@ -11,11 +11,16 @@ html, body {
     height: 100%;
 }
 
+body {
+    background-color: rgb(16, 19, 24);
+}
+
 header {
     width: 100%;
     background-color: black;
     height: 70px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 header div {
@@ -36,7 +41,6 @@ main {
     width: 100%;
     background-color: rgb(16, 19, 24);
     text-align: center;
-    padding: 20px 0px;
 }
 
 .container_curso {
@@ -125,6 +129,7 @@ footer {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin-top: 20px;
 }
 
 .direitos_autorais {
