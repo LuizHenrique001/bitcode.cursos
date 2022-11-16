@@ -1,6 +1,6 @@
 const cursos = [
     {   
-        img: '../images/img-curso-devweb.webp',
+        img: 'images/img-curso-devweb.webp',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Desenvolvimento Web',
         info: `
@@ -9,7 +9,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-curso-php.jpg',
+        img: 'images/img-curso-php.jpg',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Curso PHP',
         info: `
@@ -18,7 +18,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-bancodedados.png',
+        img: 'images/img-bancodedados.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Curso Banco de Dados',
         info: `Aprenda Banco de Dados curso completo.`,
@@ -26,7 +26,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-java.png',
+        img: 'images/img-java.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Curso JAVA',
         info: `Curso completo de JAVA Vitalício.`,
@@ -34,7 +34,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-python.png',
+        img: 'images/img-python.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Curso de Python',
         info: `Programe em Python do Básico ao Avançado.`,
@@ -42,7 +42,7 @@ const cursos = [
     },
 
     {
-        img: '../images/dropshipping-img.webp',
+        img: 'images/dropshipping-img.webp',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Curso de Dropshipping',
         info: `Aprenda tudo sobre Dropshipping.`,
@@ -50,7 +50,7 @@ const cursos = [
     },
 
     {
-        img: '../images/mkt-programadores-img.png',
+        img: 'images/mkt-programadores-img.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Marketing Digital',
         info: 'Marketing para programadores.',
@@ -58,7 +58,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-logica-programacao.png',
+        img: 'images/img-logica-programacao.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Lógica De Programação',
         info: `Aprenda Lógica de Programação.`,
@@ -66,7 +66,7 @@ const cursos = [
     },
 
     {
-        img: '../images/img-afiliado-milionario.png',
+        img: 'images/img-afiliado-milionario.png',
         imgAvaliacao: `../images/img-5-estrelas.png`,
         nome: 'Afiliado Milionario',
         info: `Comece a ganhar dinheiro como afiliado.`,
