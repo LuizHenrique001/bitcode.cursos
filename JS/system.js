@@ -76,26 +76,24 @@ const cursos = [
 
 
 iniciarBitCode = () => {
-    let containerCursos = document.querySelector('main')
-    cursos.map((val) =>{
-        containerCursos.innerHTML += `
-        <div class="container-cursos">
-            <img src="${val.img}" alt="Curso">
-            <p class="nome-curso">
-                ${val.nome}
+    let main = document.querySelector('main')
+    cursos.map((value) =>{
+        main.innerHTML += `
+        <div class="container_curso">
+            <img src="${value.img}" alt="Img Curso">
+            <h1>
+                ${value.nome}
+            </h1>
+            <p class="descricao_curso">
+                ${value.info}
             </p>
-            <p class="info-curso">
-                ${val.info}
-            </p>
-            <img class="img-avaliacao" src="${val.imgAvaliacao}" alt="Curso">
-            <div class="bloco-btn">
-                <p class="btn-comprar-curso">
-                    <a href="${val.link}">Ver curso</a>
-                </p>
+            <div class="container_avaliacao">
+                <img src="Images/img-5-estrelas.png" alt="Imagem Avaliação">
             </div>
-        </div>
-        `
-
+            <div class="btn_curso">
+                <a href="${value.link}">Ver curso</a>
+            </div>
+        </div>`
     })
 }
 

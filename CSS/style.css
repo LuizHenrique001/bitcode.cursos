@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family= Public+Sans:wght@400;600 & display = swap');
+
+/* Menu do Site */
+
+html, body {
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    height: 70px;
+    display: flex;
+}
+
+header div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+
+header img {
+    width: 120px;
+    padding-left: 3%;
+}
+
+/* Parte dos Cursos */
+
+main {
+    width: 100%;
+    background-color: rgb(16, 19, 24);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.container_curso {
+    display: inline-block;
+    margin: 0 auto;
+    width: 220px;
+    height: 370px;
+    background-color: #171923;
+    margin: 20px 15px;
+    border-radius: 5px;
+}
+
+.container_curso img {
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.container_curso h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 17px;
+    padding: 2px 0px 2px 6px;
+}
+
+.descricao_curso {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 16px;
+    padding: 2px 0px 2px 6px;
+}
+
+.container_avaliacao {
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    margin-top: 5px;
+    padding-left: 5px;
+}
+
+.container_avaliacao img {
+    width: 80px;
+}
+
+.btn_curso {
+    width: 100%;
+    margin-top: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #7855c3;
+    padding: 12px 73px;
+    transition: .4s;
+    border-radius: 0px 0px 5px 5px;
+}
+
+a:hover {
+    background-color: #523d80;
+}
+
+
+/* Footer */
+
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.direitos_autorais {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    color: #323232;
+    text-align: center;
+}

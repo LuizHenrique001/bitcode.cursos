@@ -7,143 +7,28 @@
     <title>BitCode</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon-site.png" type="image/x-icon">
-
-    <!-- Icone Menu -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="Images/favicon-site.png" type="image/x-icon">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="CSS/estilo.css">
-    <link rel="stylesheet" href="CSS/media-query.css">
+    <link rel="stylesheet" href="CSS/style.css">
 
     <!-- JS -->
+    <script src="JS/system.js" defer></script>
 
 </head>
-<body onresize="mudouTamanho()">
+<body>
     <header>
-        <nav class="navbar-logo">
-            <a class="link-logo" href="index.html">
-                <img src="images/bitcode-logo.jpg" alt="Logo Site">
-            </a>
-            <div class="bloco-logo"><i id="burguer" onclick="clickMenu()" class="material-icons">menu</i>
-            </div>
-        </nav>
-        <nav class="btn-nav" id="btnnav">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="./cursos/cursos.html">Cursos</a>
-                </li>
-                <li>
-                    <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
-                </li>
-            </ul>
-        </nav>
-        
+        <div>
+            <img src="Images/bitcode-logo.jpg" alt="Logo BitCode">
+        </div>
     </header>
-
-
-    <div class="inicio-banner-site">
-        <h1>
-            Vire um programador profissional, <br> comece Hoje!
-
-        </h1>
-        <p class="descricao-site">
-            Ganhe salários acima da média, ou trabalhe no exterior <br> e passe a ganhar mais de 20k por mês.
-        </p>
-        <p class="btn-curso">
-            <a href="cursos/cursos.html">COMEÇAR</a>
-        </p>
-    </div>
-    <hr>
-    <div class="container-mkt">
-        <div class="bloco-div">
-            <img src="images/user-1.png" alt="Img">
-            <p>
-                Profissionais que estão no mercado.
-            </p>
-        </div>
-        <div class="bloco-div">
-            <img src="images/certificado-vetor-1.png" alt="Img">
-            <p>
-                Certificado de conclusão.
-            </p>
-        </div>
-        <div class="bloco-div">
-            <img src="images/cifrao-vetor-1.png" alt="Img">
-            <p>
-                Custo Benefício, acesso vitalício.
-            </p>
-        </div>
-    </div>
-    <div class="container-anuncio-curso">
-        <p class="bloco-anuncio">
-            MUDE DE VEZ <br> APRENDA COM OS MELHORES <br> LEVANDO VOCÊ AOS SEUS OBJETIVOS.
-        </p>
-        <p class="btn-anuncio">
-            <a href="cursos/cursos.html">COMEÇAR</a>
-        </p>
-    </div>
-    <!--<div class="container-anuncio-curso-2">
-
-        <p class="btn-anuncio-afiliado">
-            <a href="https://p.eduzz.com/1125468?a=90931666">VER SOBRE</a>
-        </p>
-    </div>-->
+    <main>
+        <!-- Cursos -->
+    </main>
     <footer>
-        <img src="images/bitcode-logo.jpg" alt="Imagem">
-
-            <p class="btn-footer-nav">
-                <a href="index.html">Home</a>
-            </p>
-            <p class="btn-footer-nav">
-                <a href="./cursos/cursos.html">Cursos</a>
-            </p>
-            <p class="btn-footer-nav">
-                <a href="mailto:bitcode.cursos@gmail.com" target="_blank">Contato</a>
-            </p>
-
-        <p class="titulo-contato">
-            Meios de contato
-        </p>
-        <div class="meios-de-contato-div">
-            <p class="link-contato-wpp">
-                <a href="https://wa.me/+5561992684938" target="_blank">
-                    <img src="images/img-whatsapp.png" alt="Imagem">
-                </a>
-            </p>
-            <p class="link-contato-insta">
-                <a href="https://www.instagram.com/bitcode.cursos/" target="_blank">
-                    <img src="images/img-instagram.png" alt="Imagem">
-                </a>
-            </p>
-            <p class="link-contato-gmail">
-                <a href="mailto:bitcode.cursos@gmail.com" target="_blank">
-                    <img src="images/img-gmail.png" alt="Imagem">
-                </a>
-            </p>
-        </div>
-        <p class="direito-autoral">
-            &copy;  2022 BitCode - cursos
+        <p class="direitos_autorais">
+            &copy; 2022 - BitCode Cursos
         </p>
     </footer>
-    <script>
-        function clickMenu() {
-            if(btnnav.style.display == 'block'){
-                btnnav.style.display = 'none'
-            }else {
-                btnnav.style.display = 'block'
-            }
-        }
-        function mudouTamanho() {
-            if(window.innerWidth >= 768){
-                btnnav.style.display = 'block'
-            }else {
-                btnnav.style.display = 'none'
-            }
-        }
-    </script>
 </body>
 </html>
